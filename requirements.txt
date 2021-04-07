@@ -2,4 +2,4 @@ streamlit
 keras
 Pillow
 pandas
-numpy
+numpy==1.18.5
