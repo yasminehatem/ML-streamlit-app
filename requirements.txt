@@ -1,3 +1,4 @@
 streamlit
+tenserflow
 Pillow
 numpy==1.19.3
