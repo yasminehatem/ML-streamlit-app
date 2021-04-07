@@ -1,5 +1,5 @@
-python==3.7.10
 streamlit
+python==3.7.10
 tenserflow==2.4.1
 Pillow
 numpy==1.19.3
