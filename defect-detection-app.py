@@ -1,17 +1,20 @@
 import streamlit as st
-
-from tensorflow.keras.applications import vgg16
-st.title('Metal Surface Defect Detection')
-
-file_up = st.file_uploader("Upload an image", type="jpg")
-
 from PIL import Image
 from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.preprocessing.image import img_to_array
 
 from tensorflow import keras
+from tensorflow.keras.applications import vgg16
+
+
+
 #model = keras.models.load_model('model.h5')
 model = vgg16.VGG16(weights='imagenet')
+
+
+st.title('Metal Surface Defect Detection')
+
+file_up = st.file_uploader("Upload an image", type="jpg")
 
 
 if file_up is not None:
@@ -28,16 +31,3 @@ if file_up is not None:
     prediction = model.predict(processed_image)
     st.write('result: %s' % prediction)
     
-
-
-  
-
-
-
-
-
-
-
-
-if __name__ == "__main__":
-  pass
