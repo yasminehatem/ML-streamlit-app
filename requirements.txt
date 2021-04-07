@@ -1,4 +1,3 @@
 streamlit
 tensorflow
-Pillow
 numpy==1.19.3
