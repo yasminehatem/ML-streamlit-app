@@ -1,3 +1,4 @@
 streamlit==0.79.0
+keras
 pandas==1.0.0
 numpy==1.18.5
