@@ -1,2 +1,2 @@
 
-web: sh setup.sh && streamlit run inspection-app.py
+web: sh setup.sh && streamlit run defect-detection-app.py
