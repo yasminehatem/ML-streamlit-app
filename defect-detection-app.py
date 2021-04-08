@@ -4,7 +4,6 @@ from PIL import Image
 
 from tensorflow import keras
 from tensorflow.keras.applications import vgg16
-from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.applications.imagenet_utils import decode_predictions
 
